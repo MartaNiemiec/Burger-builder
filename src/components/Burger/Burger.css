@@ -1,12 +1,32 @@
 .Burger {
     width: 100%;
-    margin: auto;
+    margin: 20px auto;
     height: 250px;
-    overflow: scroll;
+    overflow-y: scroll;
     text-align: center;
     font-weight: bold;
     font-size: 1.2rem;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f5f5f5; 
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #CF8F2E ; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #8F5C2C; 
+  }
 
 @media (min-width: 500px) and (min-height: 400px) {
     .Burger {
