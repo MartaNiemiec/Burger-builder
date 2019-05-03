@@ -2,7 +2,7 @@
   "name": "react-complete-guide",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://martaniemiec.github.io/Burger-builder",
+  "homepage": "https://martaniemiec.github.io/Burger-builder/",
   "dependencies": {
     "autoprefixer": "7.1.2",
     "babel-core": "6.25.0",
